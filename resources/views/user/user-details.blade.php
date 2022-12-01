@@ -7,6 +7,7 @@
                         <th scope="col">#</th>
                         <th scope="col">Firstname</th>
                         <th scope="col">lastname</th>
+                        <th scope="col">Date of birth</th>
                         <th scope="col">Age</th>
                         <th scope="col">Age in years, days, and hours</th>
                     </tr>
@@ -17,6 +18,7 @@
                             <td>{{$user->id}}</td>
                             <td>{{$user->firstname}}</td>
                             <td>{{$user->lastname}}</td>
+                            <td>{{$user->dob}}</td>
                             <td>{{$user->age}}</td>
                             <td>{{$user->age_in_ydh}}</td>
                             @empty
