@@ -7,7 +7,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Carbon;
 use Tests\TestCase;
 
-class AgeInNumberTest extends TestCase
+class DateOfBirthConversionTest extends TestCase
 {
     use RefreshDatabase;
     public function setUp(): void
